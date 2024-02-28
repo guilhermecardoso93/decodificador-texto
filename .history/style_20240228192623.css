@@ -1,0 +1,148 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+.logo-alura {
+  margin: 18px 0px 0px 32px;
+}
+
+main {
+  display: flex;
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+
+.text-area {
+  margin-top: 70px;
+  background: #f3f5fc;
+  border-style: none;
+  outline: none;
+  resize: none;
+}
+
+.informaçao p {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+
+.informaçao h6 {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.encriptar {
+  width: 250px;
+  height: 50px;
+
+  background-color: #0a3871;
+  color: #ffffff;
+  border-radius: 24px;
+
+  font-size: 20px;
+}
+
+.encriptar:hover {
+  background-color: #356ea9;
+  color: #ffffff;
+}
+
+.encriptar:active {
+  background-color: #757fb2;
+  color: #ffffff;
+}
+
+.desencriptar {
+  width: 250px;
+  height: 50px;
+
+  margin-left: 30px;
+  background-color: #d8dfe8;
+  color: #0a3871;
+
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+
+  font-size: 20px;
+}
+
+.desencriptar:hover {
+  background-color: #072b61;
+  color: #ffffff;
+}
+
+.desencriptar:active {
+  background-color: #757fb2;
+  color: #ffffff;
+}
+
+.mensagem {
+  position: relative;
+  margin-top: 2px;
+  margin-left: 90px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+
+  background-image: url("/assets/boneco.png");
+  background-repeat: no-repeat;
+
+  background-position-x: center;
+  background-position-y: center;
+
+  text-align: center;
+  font-size: 19px;
+
+  outline: none;
+  border-style: none;
+  resize: none;
+}
+
+.div-btn-copia {
+  display: none;
+  text-align: center;
+}
+
+.btn-copia {
+  width: 250px;
+  height: 50px;
+
+  position: absolute;
+  top: 545px;
+  left: 850px;
+
+  margin: 20px 0px 0px 90px;
+
+  background-color: #d8dfe8;
+  color: #0a3871;
+
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+
+  font-size: 20px;
+}
+
+.btn-copia:hover {
+  background-color: #072b61;
+  color: #ffffff;
+}
+
+.btn-copia:active {
+  background-color: #aab2d5;
+  color: #ffffff;
+}
